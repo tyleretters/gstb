@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url('assets/gstb.jpg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  font-family: sans-serif
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-position: center;
+  }
+}
